@@ -1,0 +1,1 @@
+docker run -d -v `pwd`/pcaps/:/pcaps --cap-add=NET_ADMIN zeek-tcpreplay
